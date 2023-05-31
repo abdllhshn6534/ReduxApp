@@ -1,6 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { langs } from "../../helpers/locale-helper";
-
 
 
 

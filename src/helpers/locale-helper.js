@@ -18,9 +18,14 @@ export const langs = [
         title: "Francais",
         code: "fr",
         country: "fr"
+    },
+    {
+        title: "Deutsch",
+        code: "de",
+        country: "de"
     }
 ]
-export const getCurrentLang = () => {
+export const  getCurrentLang = () => {
     return store.getState().locale.lang
 
 }
